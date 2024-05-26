@@ -1,6 +1,6 @@
 # Backup Script
 
-This repository contains a production-grade shell script `backup.sh` designed to automatically back up encrypted password files that have been updated within the past 24 hours. This script addresses the needs of ABC International Inc. by automating the daily backup process, reducing human error, enhancing security, and saving valuable time.
+This repository contains a shell script `backup.sh` designed to automatically back any files that have been updated within the past 24 hours. This script addresses the needs by automating the daily backup process, reducing human error, enhancing security, and saving valuable time.
 
 ## Features
 
