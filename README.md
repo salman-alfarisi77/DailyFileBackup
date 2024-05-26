@@ -37,3 +37,36 @@ Run the script with the target and destination directories as arguments:
 
 ```sh
 ./backup.sh /path/to/target_directory /path/to/destination_directory
+```
+
+## Setting Up a Cron Job
+
+To automate the script to run daily, add a cron job:
+
+1. Open the crontab file:
+
+```
+crontab -e
+```
+
+2. Add the following line to schedule the script to run every day at 2 AM (adjust the time as needed):
+```
+0 2 * * * /path/to/backup.sh /path/to/target_directory /path/to/destination_directory >> /path/to/backup.log 2>&1
+```
+
+Replace /path/to/backup.sh, /path/to/target_directory, /path/to/destination_directory, and /path/to/backup.log with the actual paths on your system.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (git checkout -b feature/fooBar)
+3. Commit your changes (git commit -am 'Add some fooBar')
+4. Push to the branch (git push origin feature/fooBar)
+5. Create a new Pull Request
+
+
+
