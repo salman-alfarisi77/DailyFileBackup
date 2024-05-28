@@ -1,6 +1,6 @@
 # Backup Script
 
-This repository contains a shell script `backup.sh` designed to automatically back any files that have been updated within the past 24 hours. This script addresses the needs by automating the daily backup process, reducing human error, enhancing security, and saving valuable time.
+This repository contains a shell script `backup.sh` designed to automatically back any files and folder that have been updated within the past 24 hours. This script addresses the needs by automating the daily backup process, reducing human error, enhancing security, and saving valuable time.
 
 ## Features
 
